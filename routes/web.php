@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// http://localhost:8000/category/index
+Route::get('category/index', "CategoryController@index");
+
+// http://localhost:8000/home/index
+Route::get('home/index', "Home@index");
