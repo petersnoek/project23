@@ -8,7 +8,7 @@
     <nav>
         <ul>
             <li><a href="{{ url('home/index') }}">Home</a></li>
-            <li><a href="{{ url('categories/index') }}">Categories</a></li>
+            <li><a href="{{ url('category/index') }}">Categories</a></li>
         </ul>
     </nav>
 
